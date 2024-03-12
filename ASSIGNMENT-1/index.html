@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="card-div">
+        <!-- tabs container -->
+        <div class="tabs-container">
+          <button class="tab-btn active-tab" onclick="toggleTabs(0)">
+            Contacts
+          </button>
+          <button class="tab-btn" onclick="toggleTabs(1)">Groups</button>
+        </div>
+        <!-- contacts content -->
+        <div class="contents active-tab">
+          <p class="heading">11 CONTACTS</p>
+          <div class="contents-div">
+            <img src="./assets/pic2 (1).jpg" />
+            <div class="text">
+              <p>Jordy Broke</p>
+              <p>jbroke2@gmail.com</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/pic1.jpg" />
+            <div class="text">
+              <p>Tamara Junior</p>
+              <p>tamaraj@gmail.com</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/pic2 (2).jpg" />
+            <div class="text">
+              <p>Terry McGuire</p>
+              <p>mcterryg@gmail.com</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/pic2 (3).jpg" />
+            <div class="text">
+              <p>John Bahil</p>
+              <p>jbahil8@gmail.com</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <button class="add-btn">Add Contact</button>
+        </div>
+        <!-- group content -->
+        <div class="contents in-active-tab">
+          <p class="heading">11 GROUPS</p>
+          <div class="contents-div">
+            <img src="./assets/group-pic (1).jpg" />
+            <div class="text">
+              <p>Family group</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/group-pic (2).jpg" />
+            <div class="text">
+              <p>Friends group</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/group-pic (3).jpg" />
+            <div class="text">
+              <p>Office Group</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <div class="contents-div">
+            <img src="./assets/group-pic (4).jpg" />
+            <div class="text">
+              <p>School Group</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <button class="send-btn">
+              <i class="fa fa-send-o"></i>
+              <p>send</p>
+            </button>
+          </div>
+          <button class="add-btn">Add Group</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

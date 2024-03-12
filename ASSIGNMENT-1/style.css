@@ -1,0 +1,127 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 2px solid gainsboro;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  padding: 6px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 6px;
+}
+
+.tab-btn {
+  width: 20rem;
+  border: none;
+  background-color: #f5f5f5;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.in-active-tab {
+  display: none;
+}
+
+.active-tab {
+  display: flex;
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.contents-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 15px;
+  padding: 16px;
+}
+
+.text p:nth-child(2) {
+  margin-top: 4px;
+  color: gray;
+}
+
+.contents-div:hover {
+  background-color: #efefef;
+  cursor: pointer;
+  transition: 0.6s all;
+  border-radius: 12px;
+}
+
+.send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5px;
+  width: 5rem;
+  height: 2.5rem;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: medium;
+  text-transform: capitalize;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.2);
+}
+
+.send-btn:hover {
+  cursor: pointer;
+}
+
+.add-btn {
+  margin-top: 12px;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #282c35;
+  color: white;
+  width: 100%;
+  font-size: medium;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.heading {
+  color: gray;
+  margin-right: 20rem;
+}
